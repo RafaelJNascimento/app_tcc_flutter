@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "812895007577",
+    "project_id": "projetotcc-65692",
+    "storage_bucket": "projetotcc-65692.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812895007577:android:9c0d2e5ac4c0fb56759248",
+        "android_client_info": {
+          "package_name": "br.com.rafaeljnascimento.tcc_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812895007577-ks5j6iobb709g775im3ut9pu15lvtov8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAfmvri35AA9M9HTUCTDr1z6x9M8PewSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812895007577-ks5j6iobb709g775im3ut9pu15lvtov8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "812895007577-95vpu7ifr0khg0u0v4ko78u6korlr782.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rafaeljnascimento.app-tcc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812895007577:android:93403b74df3a4c3e759248",
+        "android_client_info": {
+          "package_name": "com.app_tcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812895007577-ks5j6iobb709g775im3ut9pu15lvtov8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAfmvri35AA9M9HTUCTDr1z6x9M8PewSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812895007577-ks5j6iobb709g775im3ut9pu15lvtov8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "812895007577-95vpu7ifr0khg0u0v4ko78u6korlr782.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rafaeljnascimento.app-tcc"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
