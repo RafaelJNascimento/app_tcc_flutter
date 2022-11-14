@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:tcc_app/provider/establishments.dart';
+import 'package:tcc_app/services/auth_service.dart';
+import 'package:tcc_app/views/auth_check.dart';
 import 'firebase_options.dart';
 import 'views/home.dart';
 import 'util/app_routes.dart';
@@ -21,16 +23,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(
-          create: (ctx) => Establishments(),
-        )
+        ChangeNotifierProvider(create: (ctx) => AuthService()),
+        ChangeNotifierProvider(create: (ctx) => Establishments()),
       ],
       child: MaterialApp(
         title: 'APP TCC',
         theme: ThemeData(
           primarySwatch: Colors.red,
         ),
-        routes: {AppRoutes.auth: (ctx) => const Home()},
+        routes: {
+          AppRoutes.auth: (ctx) => const AuthCheck(),
+          AppRoutes.home: (ctx) => const Home(),
+        },
         debugShowCheckedModeBanner: false,
       ),
     );
