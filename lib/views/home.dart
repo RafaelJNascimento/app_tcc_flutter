@@ -16,8 +16,8 @@ class Home extends StatelessWidget {
         padding: const EdgeInsets.all(10),
         itemCount: establishments.count,
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-          childAspectRatio: 3 / 2,
+          crossAxisCount: 3,
+          childAspectRatio: 1,
           crossAxisSpacing: 10,
           mainAxisSpacing: 10,
         ),

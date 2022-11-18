@@ -24,7 +24,9 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (ctx) => AuthService()),
-        ChangeNotifierProvider(create: (ctx) => Establishments()),
+        ChangeNotifierProvider(
+          create: (ctx) => Establishments(),
+        ),
       ],
       child: MaterialApp(
         title: 'APP TCC',
